@@ -19,7 +19,7 @@ public class screenshot {
 		d.get("http://www.google.co.in");
 
 		File scr = ((TakesScreenshot)d).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scr,new File("D:.png"));
+		// FileUtils.copyFile(scr,new File("D:.png"));
 		
  	}
 
